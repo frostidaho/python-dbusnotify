@@ -31,7 +31,7 @@ setup(
       'Programming Language :: Python :: 3',
     ],
     keywords='',
-    packages=find_packages(exclude=['docs', 'tests*']),
+    packages=find_packages(exclude=['docs', 'tests*', 'examples']),
     include_package_data=True,
     author='Frost Idaho',
     install_requires=install_requires,
