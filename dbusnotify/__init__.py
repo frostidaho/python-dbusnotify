@@ -43,6 +43,7 @@ def get_cache_file(fname, mode=0o700, stale_time=STALE_TIME):
 
 
 logger = logging.getLogger(__name__)
+logger.addHandler(logging.NullHandler())
 try:
     import gi
     gi.require_version('Gtk', '3.0')
