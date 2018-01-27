@@ -22,7 +22,7 @@ setup(
     version=__version__,
     description='dbusnotify is a library for creating desktop notifications using the freedesktop.org notification spec',
     long_description=long_description,
-    url='https://github.com/frostidaho/dbusnotify',
+    url='https://github.com/frostidaho/python-dbusnotify',
     download_url='https://github.com/frostidaho/dbusnotify/tarball/' + __version__,
     license='BSD',
     classifiers=[
